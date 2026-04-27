@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+
+<h2>Shopping Cart System</h2>
+
+<div class="item">
+    Product A - ₹100
+    <button onclick="changeQty(0, -1)">-</button>
+    <span id="qty0">1</span>
+    <button onclick="changeQty(0, 1)">+</button>
+</div>
+
+<div class="item">
+    Product B - ₹200
+    <button onclick="changeQty(1, -1)">-</button>
+    <span id="qty1">1</span>
+    <button onclick="changeQty(1, 1)">+</button>
+</div>
+
+<h3>Total: ₹<span id="total">0</span></h3>
+
+<script src="script.js"></script>
+</body>
+</html>

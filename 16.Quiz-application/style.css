@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    text-align: left;
+    background-color: beige;
+    box-shadow: 0cap;  
+}
+
+.question {
+    margin: 15px;
+    background-attachment: fixed;
+    bottom: 0;
+    grid-template-columns: repeat(2, 150px);
+    box-sizing: border-box;
+    container-name: inherit;
+}
+
+.options {
+    margin: 10px;
+    bottom: 0;
+    grid-template-columns: repeat(2, 150px);
+    display: grid;
+    table-layout: auto;
+}

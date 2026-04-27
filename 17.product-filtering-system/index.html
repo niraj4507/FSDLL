@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Product Filter</h3>
+
+<select onchange="filterProducts(this.value)">
+    <option value="all">All</option>
+    <option value="electronics">Electronics</option>
+    <option value="clothing">Clothing</option>
+</select>
+
+<p class="item" data-cat="electronics">Laptop</p>
+<p class="item" data-cat="electronics">Phone</p>
+<p class="item" data-cat="clothing">Shirt</p>
+<p class="item" data-cat="clothing">Jeans</p>
+
+<script src="script.js"></script>
+
+</body>
+</html>

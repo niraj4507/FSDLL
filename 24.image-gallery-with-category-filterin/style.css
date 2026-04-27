@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 8px 12px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 100px;
+}

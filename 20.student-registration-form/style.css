@@ -1,0 +1,32 @@
+body {
+    font-family: Arial;
+    background: #edb4b4;
+    text-align: center;
+}
+
+.form {
+    width: 300px;
+    margin: auto;
+    background: rgb(180, 171, 171);
+    padding: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+}

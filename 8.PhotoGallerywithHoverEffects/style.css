@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 15px;
+    justify-content: center'
+}
+
+.photo {
+    overflow: hidden;
+}
+
+.photo img {
+    width: 200px;
+    height: 150px;
+    transition: 0.3s;
+}
+
+.photo img:hover {
+    transform: scale(1.1);
+}

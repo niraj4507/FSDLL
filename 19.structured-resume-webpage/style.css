@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+    background: #b57878;
+    text-align: center;
+}
+
+.resume {
+    width: 600px;
+    margin: auto;
+    background: rgb(179, 61, 61);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Pie Chart */
+.pie {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    background: conic-gradient(
+        green 0% 60%,
+        red 60% 85%,
+        orange 85% 100%
+    );
+}
+
+/* Doughnut Chart */
+.doughnut {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background: conic-gradient(
+        green 0% 60%,
+        red 60% 85%,
+        orange 85% 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+}

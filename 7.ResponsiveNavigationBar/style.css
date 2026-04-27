@@ -1,0 +1,72 @@
+body {
+    font-family: Arial;
+}
+
+/* Navbar */
+nav {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Logo */
+.logo {
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Menu Button */
+.menu-btn {
+    display: none;
+    float: right;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+/* Menu */
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Links */
+ul li {
+    position: relative;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #555;
+    top: 25px;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .menu-btn {
+        display: block;
+    }
+
+    ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    ul.show {
+        display: flex;
+    }
+}

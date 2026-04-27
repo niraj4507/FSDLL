@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2> 4.Real-Time Profile previewer</h2>
+
+    <!-- Form for user input -->
+    <div class="form">
+        <input type="text" id="name" placeholder="Enter Name" oninput="updateProfile()"><br>
+        <input type="text" id="bio" placeholder="Enter Bio" oninput="updateProfile()"><br>
+        <input type="text" id="img" placeholder="Enter Image URL" oninput="updateProfile()"><br>
+
+    </div>
+
+    <!-- Profile Card -->
+    <div class="card">
+        <img id="previewImg" src="https://via.placeholder.com/100">
+        <h3 id="previewName">Niraj Kumar Yadav</h3>
+        <p id="previewBio">Your Bio</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html> 

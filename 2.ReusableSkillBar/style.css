@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.skill-container {
+    margin: 10px 0;
+}
+
+.skill-name {
+    margin-bottom: 5px;
+}
+
+.bar {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+}
+
+.fill {
+    height: 100%;
+    background: #4CAF50;
+    text-align: right;
+    color: white;
+    padding-right: 5px;
+}
